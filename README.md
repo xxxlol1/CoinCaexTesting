@@ -61,3 +61,7 @@ Para ejecutar pruebas con la interfaz de usuario de CYPRESS, ejecute el siguient
 ```
 npm run open
 ```
+
+## Reporte
+Para ver el informe, ejecute las pruebas o ejecute el comando 'npm run generate-report', luego abra el archivo CoinCaexTesting/cypress/results/html/report.html
+Debería verse así: 

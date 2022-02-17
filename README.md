@@ -65,7 +65,7 @@ Para mas informacion [Cypress](https://docs.cypress.io/guides/overview/why-cypre
 
 
 ## Reporte
-para generar el informe, ejecute los siguientes comandos:
+Para generar el informe, ejecute los siguientes comandos:
 `npx cypress run`
 `npm run merge`
 `npm run marge`

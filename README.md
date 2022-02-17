@@ -46,11 +46,9 @@ Para la ejecucion de todos los test y su generador de reporte en formato HTML, s
 Dos maneras de correr las pruebas.
 
 - Headless Mode
-- With CYPRESS UI
+- CYPRESS UI
 
 Para ejecutar las pruebas en 'Headless Mode' Debe ejecutar este comando:
-![image](https://user-images.githubusercontent.com/23411606/154401231-6af4532a-f745-490b-a323-3708703cd00f.png)
-
 
 ```
 npx cypress run
@@ -76,4 +74,5 @@ Este resultado se encuentran el siguiente carpeta:
 `CoinCaexTesting/cypress/results/html/report.html`
 <br>
 Debería verse así: 
+![image](https://user-images.githubusercontent.com/23411606/154401279-1c8baca0-641f-4af8-b34e-5d0898644550.png)
 

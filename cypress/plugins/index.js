@@ -20,7 +20,3 @@ module.exports = (on, config) => {
   // `on` is used to hook into various events Cypress emits
   // `config` is the resolved Cypress config
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 834f612bc6650348f99bf7ba3f9cf25e2e527de8

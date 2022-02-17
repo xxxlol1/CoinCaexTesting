@@ -1,0 +1,10 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+cypress/reports
+cypress/results
+cypress/screenshots
+cypress.json .keep
+cypress/notifications/config.json .keep
+cypress/config.json .keep
+.DS_Store

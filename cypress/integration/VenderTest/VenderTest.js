@@ -8,25 +8,19 @@ describe('Pruebas a la seccion de compras del usuario', () => {
         cy.get('.login-btn').click();
         cy.xpath("//a[text()='Vender (Cash out)']").click();
     });
-    it('Form para comprar : BTC', () => {
-        cy.get('#logo1').click()
-        cy.get('#sellForm').should('be.visible')
-        cy.wait(12000)
-        cy.get("ion-sel-0-lbl").click()
-       
-       // cy.xpath("//h1[contains(text(),'Comprar BTC')]").should("be.visible")
+    it("Form para comprar : BTC", () => {
+      cy.get("#logo1").click();
+      cy.get("#sellForm").should("be.visible");
+      cy.wait(12000);
+      cy.get("ion-sel-0-lbl").click();
     });
     it.skip('Form para comprar : ETH', () => {
         cy.get('#logo2').click()
         cy.get('#buyForm').should('be.visible')
-         // cy.wait(8000)
-       // cy.xpath("//h1[contains(text(),'Comprar BTC')]").should("be.visible")
     });
     it.skip('Form para comprar : USDT', () => {
         cy.get('#logo3').click()
         cy.get('#buyForm').should('be.visible')
-         // cy.wait(8000)
-       // cy.xpath("//h1[contains(text(),'Comprar BTC')]").should("be.visible")
     });
     it('Seccion de notificaciones', () => {
         cy.get("#notifications").should("be.visible")

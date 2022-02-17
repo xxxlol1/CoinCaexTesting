@@ -49,6 +49,8 @@ Dos maneras de correr las pruebas.
 - With CYPRESS UI
 
 Para ejecutar las pruebas en 'Headless Mode' Debe ejecutar este comando:
+![image](https://user-images.githubusercontent.com/23411606/154401231-6af4532a-f745-490b-a323-3708703cd00f.png)
+
 
 ```
 npx cypress run

@@ -65,5 +65,11 @@ Para mas informacion [Cypress](https://docs.cypress.io/guides/overview/why-cypre
 
 
 ## Reporte
-Para ver el informe, ejecute las pruebas o ejecute el comando 'npm run generate-report', luego abra el archivo CoinCaexTesting/cypress/results/html/report.html
+para generar el informe, ejecute los siguientes comandos:
+`npx cypress run`
+`npm run merge`
+`npm run marge`
+Este resultado se encuentran el siguiente carpeta: 
+`CoinCaexTesting/cypress/results/html/report.html`
 Debería verse así: 
+

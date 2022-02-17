@@ -69,6 +69,7 @@ Para generar el informe, ejecute los siguientes comandos:
 `npx cypress run`
 `npm run merge`
 `npm run marge`
+<br>
 Este resultado se encuentran el siguiente carpeta: 
 `CoinCaexTesting/cypress/results/html/report.html`
 Debería verse así: 
